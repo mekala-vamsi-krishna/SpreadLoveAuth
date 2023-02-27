@@ -8,12 +8,28 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var signInFacebookButton: UIButton!
+    @IBOutlet var signInGoogleButton: UIButton!
+    @IBOutlet var createAccountButton: UIButton!
+    @IBOutlet var termsOfServiceLabel: UILabel!
+    @IBOutlet var orLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupUI()
     }
 
+    func setupUI() {
+        setupHeaderLabel()
+        setupOrLabel()
+        setupTermsLabel()
+        setupFacebookButton()
+        setupGoogleButton()
+        setupCreateAccountButton()
+    }
 
+    
+    
 }
 

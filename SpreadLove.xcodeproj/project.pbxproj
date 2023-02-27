@@ -3,27 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		15B547A029AA6C4C00D15104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B5479F29AA6C4C00D15104 /* AppDelegate.swift */; };
 		15B547A229AA6C4C00D15104 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B547A129AA6C4C00D15104 /* SceneDelegate.swift */; };
 		15B547A429AA6C4C00D15104 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B547A329AA6C4C00D15104 /* ViewController.swift */; };
-		15B547A729AA6C4C00D15104 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B547A529AA6C4C00D15104 /* Main.storyboard */; };
 		15B547A929AA6C5200D15104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B547A829AA6C5200D15104 /* Assets.xcassets */; };
 		15B547AC29AA6C5200D15104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B547AA29AA6C5200D15104 /* LaunchScreen.storyboard */; };
+		15B547B429AA6D3E00D15104 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B547B329AA6D3E00D15104 /* Welcome.storyboard */; };
+		15B547B629AB111900D15104 /* ViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B547B529AB111900D15104 /* ViewController+UI.swift */; };
+		15B547B829AB188000D15104 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B547B729AB188000D15104 /* SignUpViewController.swift */; };
+		15B547BA29AB207B00D15104 /* SignUpViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B547B929AB207B00D15104 /* SignUpViewController+UI.swift */; };
+		15B547BC29AB25B800D15104 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B547BB29AB25B800D15104 /* SignInViewController.swift */; };
+		15B547BE29AB25D500D15104 /* SignInViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B547BD29AB25D500D15104 /* SignInViewController+UI.swift */; };
+		15B547C029AB2CF200D15104 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B547BF29AB2CF200D15104 /* ForgotPasswordViewController.swift */; };
+		15B547C229AB2D0400D15104 /* ForgotPasswordViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B547C129AB2D0400D15104 /* ForgotPasswordViewController+UI.swift */; };
+		15B547C429ABB86A00D15104 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15B547C329ABB86A00D15104 /* GoogleService-Info.plist */; };
+		15D1C6BA29AC6C4E0047DD24 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 15D1C6B929AC6C4E0047DD24 /* ProgressHUD */; };
+		15D1C6BC29AC6F250047DD24 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D1C6BB29AC6F250047DD24 /* API.swift */; };
+		15D1C6BE29AC82140047DD24 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D1C6BD29AC82140047DD24 /* UserAPI.swift */; };
+		15D3A18129AC8F7B00433BAC /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D3A18029AC8F7B00433BAC /* StorageService.swift */; };
+		15D3A18329AC95AB00433BAC /* Ref.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D3A18229AC95AB00433BAC /* Ref.swift */; };
+		FB54278EC7FF64769901B71C /* Pods_SpreadLove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E0B7312BD93C440303E285 /* Pods_SpreadLove.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07FFCF77CFE6F7B9294EF065 /* Pods-SpreadLove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreadLove.debug.xcconfig"; path = "Target Support Files/Pods-SpreadLove/Pods-SpreadLove.debug.xcconfig"; sourceTree = "<group>"; };
 		15B5479C29AA6C4C00D15104 /* SpreadLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpreadLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B5479F29AA6C4C00D15104 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15B547A129AA6C4C00D15104 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		15B547A329AA6C4C00D15104 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		15B547A629AA6C4C00D15104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15B547A829AA6C5200D15104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15B547AB29AA6C5200D15104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15B547AD29AA6C5200D15104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15B547B329AA6D3E00D15104 /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
+		15B547B529AB111900D15104 /* ViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+UI.swift"; sourceTree = "<group>"; };
+		15B547B729AB188000D15104 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		15B547B929AB207B00D15104 /* SignUpViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUpViewController+UI.swift"; sourceTree = "<group>"; };
+		15B547BB29AB25B800D15104 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		15B547BD29AB25D500D15104 /* SignInViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignInViewController+UI.swift"; sourceTree = "<group>"; };
+		15B547BF29AB2CF200D15104 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		15B547C129AB2D0400D15104 /* ForgotPasswordViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ForgotPasswordViewController+UI.swift"; sourceTree = "<group>"; };
+		15B547C329ABB86A00D15104 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		15D1C6BB29AC6F250047DD24 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		15D1C6BD29AC82140047DD24 /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		15D3A18029AC8F7B00433BAC /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		15D3A18229AC95AB00433BAC /* Ref.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ref.swift; sourceTree = "<group>"; };
+		98E0B7312BD93C440303E285 /* Pods_SpreadLove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpreadLove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F34C4D14439F618EE65622 /* Pods-SpreadLove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpreadLove.release.xcconfig"; path = "Target Support Files/Pods-SpreadLove/Pods-SpreadLove.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +60,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB54278EC7FF64769901B71C /* Pods_SpreadLove.framework in Frameworks */,
+				15D1C6BA29AC6C4E0047DD24 /* ProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BD91FB2451C1D2BBD4FF8D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98E0B7312BD93C440303E285 /* Pods_SpreadLove.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		15B5479329AA6C4C00D15104 = {
 			isa = PBXGroup;
 			children = (
 				15B5479E29AA6C4C00D15104 /* SpreadLove */,
 				15B5479D29AA6C4C00D15104 /* Products */,
+				B5D8457428BE13D7DF29AA6F /* Pods */,
+				0BD91FB2451C1D2BBD4FF8D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +100,33 @@
 				15B5479F29AA6C4C00D15104 /* AppDelegate.swift */,
 				15B547A129AA6C4C00D15104 /* SceneDelegate.swift */,
 				15B547A329AA6C4C00D15104 /* ViewController.swift */,
-				15B547A529AA6C4C00D15104 /* Main.storyboard */,
+				15B547B329AA6D3E00D15104 /* Welcome.storyboard */,
+				15B547B529AB111900D15104 /* ViewController+UI.swift */,
+				15B547B729AB188000D15104 /* SignUpViewController.swift */,
+				15B547B929AB207B00D15104 /* SignUpViewController+UI.swift */,
+				15D1C6BB29AC6F250047DD24 /* API.swift */,
+				15D1C6BD29AC82140047DD24 /* UserAPI.swift */,
+				15B547BB29AB25B800D15104 /* SignInViewController.swift */,
+				15B547BD29AB25D500D15104 /* SignInViewController+UI.swift */,
+				15B547BF29AB2CF200D15104 /* ForgotPasswordViewController.swift */,
+				15B547C129AB2D0400D15104 /* ForgotPasswordViewController+UI.swift */,
 				15B547A829AA6C5200D15104 /* Assets.xcassets */,
 				15B547AA29AA6C5200D15104 /* LaunchScreen.storyboard */,
+				15B547C329ABB86A00D15104 /* GoogleService-Info.plist */,
 				15B547AD29AA6C5200D15104 /* Info.plist */,
+				15D3A18029AC8F7B00433BAC /* StorageService.swift */,
+				15D3A18229AC95AB00433BAC /* Ref.swift */,
 			);
 			path = SpreadLove;
+			sourceTree = "<group>";
+		};
+		B5D8457428BE13D7DF29AA6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07FFCF77CFE6F7B9294EF065 /* Pods-SpreadLove.debug.xcconfig */,
+				D6F34C4D14439F618EE65622 /* Pods-SpreadLove.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +136,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15B547B029AA6C5200D15104 /* Build configuration list for PBXNativeTarget "SpreadLove" */;
 			buildPhases = (
+				2FEF8313D1B9D00F46AD3B1D /* [CP] Check Pods Manifest.lock */,
 				15B5479829AA6C4C00D15104 /* Sources */,
 				15B5479929AA6C4C00D15104 /* Frameworks */,
 				15B5479A29AA6C4C00D15104 /* Resources */,
+				DD8368AE1D03AA4429863211 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SpreadLove;
+			packageProductDependencies = (
+				15D1C6B929AC6C4E0047DD24 /* ProgressHUD */,
+			);
 			productName = SpreadLove;
 			productReference = 15B5479C29AA6C4C00D15104 /* SpreadLove.app */;
 			productType = "com.apple.product-type.application";
@@ -103,7 +170,7 @@
 				};
 			};
 			buildConfigurationList = 15B5479729AA6C4C00D15104 /* Build configuration list for PBXProject "SpreadLove" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,6 +178,9 @@
 				Base,
 			);
 			mainGroup = 15B5479329AA6C4C00D15104;
+			packageReferences = (
+				15D1C6B829AC6C4E0047DD24 /* XCRemoteSwiftPackageReference "ProgressHUD" */,
+			);
 			productRefGroup = 15B5479D29AA6C4C00D15104 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,35 +196,81 @@
 			buildActionMask = 2147483647;
 			files = (
 				15B547AC29AA6C5200D15104 /* LaunchScreen.storyboard in Resources */,
+				15B547C429ABB86A00D15104 /* GoogleService-Info.plist in Resources */,
+				15B547B429AA6D3E00D15104 /* Welcome.storyboard in Resources */,
 				15B547A929AA6C5200D15104 /* Assets.xcassets in Resources */,
-				15B547A729AA6C4C00D15104 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FEF8313D1B9D00F46AD3B1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpreadLove-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD8368AE1D03AA4429863211 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpreadLove/Pods-SpreadLove-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpreadLove/Pods-SpreadLove-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpreadLove/Pods-SpreadLove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		15B5479829AA6C4C00D15104 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15D1C6BC29AC6F250047DD24 /* API.swift in Sources */,
+				15D3A18329AC95AB00433BAC /* Ref.swift in Sources */,
+				15B547BE29AB25D500D15104 /* SignInViewController+UI.swift in Sources */,
+				15B547BC29AB25B800D15104 /* SignInViewController.swift in Sources */,
+				15B547BA29AB207B00D15104 /* SignUpViewController+UI.swift in Sources */,
 				15B547A429AA6C4C00D15104 /* ViewController.swift in Sources */,
+				15D1C6BE29AC82140047DD24 /* UserAPI.swift in Sources */,
+				15B547C229AB2D0400D15104 /* ForgotPasswordViewController+UI.swift in Sources */,
+				15D3A18129AC8F7B00433BAC /* StorageService.swift in Sources */,
 				15B547A029AA6C4C00D15104 /* AppDelegate.swift in Sources */,
+				15B547C029AB2CF200D15104 /* ForgotPasswordViewController.swift in Sources */,
+				15B547B629AB111900D15104 /* ViewController+UI.swift in Sources */,
 				15B547A229AA6C4C00D15104 /* SceneDelegate.swift in Sources */,
+				15B547B829AB188000D15104 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		15B547A529AA6C4C00D15104 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				15B547A629AA6C4C00D15104 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		15B547AA29AA6C5200D15104 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +398,7 @@
 		};
 		15B547B129AA6C5200D15104 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FFCF77CFE6F7B9294EF065 /* Pods-SpreadLove.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +409,8 @@
 				INFOPLIST_FILE = SpreadLove/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Welcome;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +428,7 @@
 		};
 		15B547B229AA6C5200D15104 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6F34C4D14439F618EE65622 /* Pods-SpreadLove.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +439,8 @@
 				INFOPLIST_FILE = SpreadLove/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Welcome;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +478,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		15D1C6B829AC6C4E0047DD24 /* XCRemoteSwiftPackageReference "ProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/relatedcode/ProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		15D1C6B929AC6C4E0047DD24 /* ProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15D1C6B829AC6C4E0047DD24 /* XCRemoteSwiftPackageReference "ProgressHUD" */;
+			productName = ProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 15B5479429AA6C4C00D15104 /* Project object */;
 }
